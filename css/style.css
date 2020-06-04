@@ -47,7 +47,7 @@ h5 {
 	line-height: 20px;
 }
 p {
-	font-size: 15px;
+	font-size: 20px;
 }
 p.intro {
 	margin: 12px 0 0;
@@ -625,8 +625,8 @@ background-color:#FFFFFF;
 	transition-delay: 0.1s;
 	}
 
-	/*slider*/
-	.wrapper {
+	/*slider texto*/
+	/*.wrapper {
 		position: relative;
 		overflow: hidden;
 		width: 600px;
@@ -663,4 +663,36 @@ background-color:#FFFFFF;
 	
 	@keyframes slide1 {
 		100% { left: 0; }
-	}
+	}*/
+#logostyle{
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	border-bottom-width: 0px !important;
+	border-top-width: 0px !important;
+	
+}
+.nav > li > a >img{
+max-width: 50px;
+}
+@media only screen and (max-width:380px){
+	.bx-viewport{display: none;}
+	.slider{display: none;}
+
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+@media only screen and (max-width:380px){
+	#anovats{width: 100% !important}
+}
+#anovats{
+	width: 50%; 
+}
+.text-center{
+	text-align: center;
+}
+.serviciosaliados{
+	width: 100% !important;
+}
