@@ -240,7 +240,7 @@ header .intro-text {
 	left: 0;
 }
 #about .about-text {
-	/*padding: 80px 0;*/
+	padding: 80px 0;
 }
 #about .about-img {
 	/*background: #444 url(../img/gallery-bg.jpg) center center no-repeat;*/
@@ -450,6 +450,7 @@ color: #999;
 #img{
 	width: 40%;
 	/*height:10%;*/
+	margin:16px auto 16px;
 }
 .size-img-aliados{
 	max-width: 20%;
@@ -698,4 +699,13 @@ max-width: 50px;
 }
 #center{
 	text-align: center;
+	word-wrap: break-word;
+}
+@media only screen and (max-width:380px){
+	#img{
+		margin-left: auto !important;
+		margin-right: auto !important;
+		display: block !important;
+		width: 100% !important;
+	}
 }
